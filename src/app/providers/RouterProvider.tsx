@@ -7,7 +7,7 @@ import { PostFull } from "@/pages/postFull";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "Posts/",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
